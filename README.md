@@ -2,14 +2,11 @@
 ---
 ### Easy to use open-source implementation for Live Augmented Reality with OpenCV python.
 
-This package provides a solid fundation for Live AR applications in Python via OpenCV. Just calibrate your camera in a few commands then starts displaying 3d shapes on your chessboard. Take a look at the 3d rendering in action (live footage):
+This package provides a solid fundation for Live AR applications in Python via OpenCV. Just calibrate your camera in a few commands then starts displaying 3d shapes on your chessboard. Take a look at the 3d rendering of a plain cube in action (live footage):
 
 
 ```python
-# TODO + TODO SAYS WHEN IMAGE IS CAPTURED
-from IPython.display import Video
-
-# Video("test.mp4")
+![](gif/render.gif)
 ```
 
 Yes, camera calibration seems tedious but this is one shot processand made easy in this package. Then you'll be able to render shapes on live footage.
@@ -61,7 +58,7 @@ c.retune()
 c.render()
 ```
 
-![](gif/retune.gif)
+![](gif/render.gif)
 
 # Easy installation with pip:
 
