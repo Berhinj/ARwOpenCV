@@ -29,25 +29,45 @@ c = AR.Calibration("dir", chessboard=(6,9))
 c.capture()
 
 # Go through the saved chessboard image to help you delete incorrect ones
-# Once done, creates the Camera Signatur
+# Once done, creates the Camera Signature
 c.retune()
 
 # You're now ready to go for AR rendering
 c.render()
 ```
 
+Let's disect each step with a video tutorial
+
+
+```python
+# Launch the device camera, automaticaly saves a picture every time a 6x9 chessboard is detected on the image
+c.capture()
+```
+
 ![](gif/capture.gif)
 
 
 ```python
-# TODO
+# Go through the saved chessboard image to help you delete incorrect ones
+# Once done, creates the Camera Signature
+c.retune()
 ```
 
-Easy installation with pip:
+![](gif/retune.gif)
 
 
 ```python
-# TODO
+# You're now ready to go for AR rendering
+c.render()
+```
+
+![](gif/retune.gif)
+
+# Easy installation with pip:
+
+
+```python
+pip install git+https://github.com/ceddlyburge/python_world#egg=python_world
 ```
 
 # Why use this library:
