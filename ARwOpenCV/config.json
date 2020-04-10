@@ -1,0 +1,14 @@
+
+{
+  "Instructions":{
+    "Empty":["No or not enough Images for calibration\nNext steps are:\n1. capture()\n2. retune()\n3. calibrate()/render()"],
+    "NoImageXORMetaData":[
+      "Issue: Either the Image Dataset or the MetaData is not available while the other is. Both are required.\nDo you want to clean the folder {:s} (necessary step) [Y/N]",
+      "Folder cleaned. Next steps are:\n1. capture()\n2. retune()\n3. calibrate()/render()"
+    ],
+    "NoCameraSignature":["Image Dataset available but no Camera Signature.\nNext steps are:\n1. retune()\n2. calibrate()/render()"],
+    "CameraSignature":["Camera Signature loaded, next steps are:\n1. retune()\n2. calibrate()/render()"]
+  }
+}
+
+  
