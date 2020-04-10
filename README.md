@@ -4,15 +4,17 @@
 
 This package provides a solid fundation for Live AR applications in Python via OpenCV. Just calibrate your camera in a few commands then starts displaying 3d shapes on your chessboard. Take a look at the 3d rendering of a plain cube in action (live footage):
 
-
-```python
 ![](gif/render.gif)
-```
 
 Yes, camera calibration seems tedious but this is one shot processand made easy in this package. Then you'll be able to render shapes on live footage.
 1. You'll need a black & white chessboard image printed, mine has 6x9 square corners. 
 2. Only three lines of code are required to setup a camera signature for further camera calibration.
-3. Rende
+3. Render
+
+Yes, camera calibration seems tedious but this is one shot processand made easy in this package. Then you'll be able to render shapes on live footage.
+1. You'll need a black & white chessboard image printed, mine has 6x9 square corners. 
+2. Only three lines of code are required to setup a camera signature for further camera calibration.
+3. Render the 3d shape on the chessboard
 
 
 ```python
