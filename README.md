@@ -65,7 +65,7 @@ c.render()
 
 
 ```python
-pip install git+https://github.com/ceddlyburge/python_world#egg=python_world
+pip install git+https://github.com/Berhinj/ARwOpenCV
 ```
 
 # Why use this library:
